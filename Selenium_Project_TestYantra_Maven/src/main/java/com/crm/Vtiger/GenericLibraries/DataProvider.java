@@ -14,7 +14,7 @@ public class DataProvider {
 	ExcelFileUtility ExcelLib = new ExcelFileUtility();
 	
 	public Object[][] getExcelTestData(String sheetname) throws Throwable, InvalidFormatException, IOException{
-		FileInputStream fis = new FileInputStream(IpathConstants.);
+		FileInputStream fis = new FileInputStream(IpathConstants.ExcelPath);
 		Workbook workbook = WorkbookFactory.create(fis);
 		Sheet sheet = workbook.getSheet(sheetname);
 		int lastrow = sheet.getLastRowNum();
