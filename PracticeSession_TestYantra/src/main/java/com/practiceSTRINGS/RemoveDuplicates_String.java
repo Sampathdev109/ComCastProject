@@ -34,7 +34,7 @@ public class RemoveDuplicates_String {
 		
 		}
 	}
-	// To print only the duplicate characters (Occurance of Duplicates)
+	// To remove the duplicate characters (Occurance of Duplicates)
 	if(count == 1) {
 	System.out.print(ch);
 	}

@@ -20,6 +20,6 @@ public class PropertyFileUtility {
 		p.load(fis);
 		String value = p.getProperty(key);
 		return value;
-	
+	// String value = p.getProperty9key);
 	}
 }
